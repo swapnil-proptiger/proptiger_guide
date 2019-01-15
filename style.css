@@ -1,0 +1,178 @@
+
+
+
+.container{
+	width: 100%;
+	background: url('banner.jpeg') center 0 no-repeat;
+	overflow: hidden;
+	background-size: cover;
+	min-height: 310px;
+    text-align: center;
+    position: relative;
+}
+.heading1{
+
+
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered{
+
+	color: white;
+	font-size: x-large;
+	line-height: normal;
+
+}
+
+.cent2{
+
+	    font-size: 50px;
+    margin-top: 0;
+    color: #00f7fe;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.cent3{
+	    color: #ff5f5f;
+}
+.rightfl{
+	float: right;
+}
+
+ .nav-bar,  .navi{
+	float: none;
+    border: none;
+    border-top: 1px solid #dcdcdc;
+    background-color: #fafafa;
+    text-align: center;
+    min-height: auto;
+    line-height: 40px;
+    margin-top: 0px;
+}
+.inl{
+	display: inline;
+
+}
+
+li a{
+	display:inline;
+}
+.navitem{
+	color: #333;
+    text-decoration: none;
+      margin:0px 10px 0px 10px;
+      line-height: 40px;
+
+}
+.drop{
+  position:relative;
+  overflow: hidden;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.drop:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content>a{
+	display: block;
+
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.fa-search{
+	width: 40px;
+	margin-right: 10px;
+	line-height: 40px;
+	float: right;
+	overflow: hidden;
+}
+ul.breadcrumb {
+	float: left;
+	text-align: center;
+  padding: 5px 30px;
+  list-style: none;
+  background-color: white;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 13px;
+}
+
+ul.breadcrumb li a {
+  color: orange;
+  text-decoration: none;
+}
+
+
+
+h1{	
+	clear: both;
+	margin: 50px;
+     
+   font-family: Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,sans-serif;
+ }
+ .outer{
+ 	width: 100%;
+ }
+ .qa-block{
+ 	width: 100%;
+   margin-bottom: 25px;
+ }
+ .que, .ans{
+   margin: 10px;
+   font-family: Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,sans-serif;
+}
+.que::before{
+	content: "\2022";
+ color: orange;
+ font-weight: bold;
+ display: inline-block;
+ width: 1em;
+ margin-left: -1em;
+}
+.blackk::before{
+	content: "\2022";
+ color: black;
+ font-weight: bold;
+ display: inline-block;
+ width: 1em;
+ margin-left: -1em;
+}
+.que{
+   font-size: 20px;
+   color:#525558;
+   text-align: left;
+
+}
+.ans{
+   font-size:16px;
+   color:#666;
+   text-align: left;
+
+}
+ li{	list-style: none;
+     margin-left: 30px;
+ }
+.social-links li{
+   display: inline;
+}
+
