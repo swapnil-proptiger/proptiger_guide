@@ -1,12 +1,17 @@
-
+html , body{
+  margin: 0px;
+  width: 100%;
+  height:100%;
+}
 
 
 .container{
-	width: 100%;
-	background: url('banner.jpeg') center 0 no-repeat;
-	overflow: hidden;
+	/*width: 100%;*/
+  height: 300px;
+	background: url('banner.jpeg') 50% 0;
+  margin-left: 0px;
+  margin-right: 0px;
 	background-size: cover;
-	min-height: 310px;
     text-align: center;
     position: relative;
 }
@@ -42,6 +47,33 @@
 .rightfl{
 	float: right;
 }
+div.subs-icon-bar
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  
+}
+img.logo_proptiger
+{
+  margin-left: 50px;
+}
+div.subscribe
+{
+  border-radius: 4px;
+    background-color: #f58120;
+    color: #fff;
+    font-size: 12px;
+    padding: 0 20px;
+    line-height: 27px;
+    display: inline-block;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,sans-serif;
+    margin-left: 600px;
+}
+div.logos
+{
+  display: inline-block;
+}
 
  .nav-bar,  .navi{
 	float: none;
@@ -59,16 +91,17 @@
 }
 
 li a{
-	display:inline;
+	/*display:inline;*/
 }
 .navitem{
 	color: #333;
     text-decoration: none;
-      margin:0px 10px 0px 10px;
+      margin:0px auto;
       line-height: 40px;
 
 }
 .drop{
+  position: inline-block;
   position:relative;
   overflow: hidden;
 }
@@ -81,6 +114,7 @@ li a{
   z-index: 1;
 }
 .drop:hover .dropdown-content {
+  position: absolute;
   display: block;
 }
 .dropdown-content>a{
@@ -130,12 +164,13 @@ h1{
      
    font-family: Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,sans-serif;
  }
- .outer{
- 	width: 100%;
- }
  .qa-block{
- 	width: 100%;
+ 	/*width: 100%;*/
    margin-bottom: 25px;
+   margin-right: 40px;
+   margin-left:50px;
+   padding-left: 30px;
+   padding-right: 30px;
  }
  .que, .ans{
    margin: 10px;
@@ -160,19 +195,20 @@ h1{
 .que{
    font-size: 20px;
    color:#525558;
-   text-align: left;
+   text-align: justify;
 
 }
 .ans{
    font-size:16px;
    color:#666;
-   text-align: left;
+   text-align: justify;
+   display: inline-block;
 
 }
  li{	list-style: none;
      margin-left: 30px;
  }
-.social-links li{
+/*.social-links li{
    display: inline;
-}
+}*/
 
